@@ -123,7 +123,7 @@ DEV_TESTING_CHANNEL = 1139762727275995166
 MAP_VOTE_FIRST = True
 RANK_BOUNDARIES_LIST = [720, 950, 1190, 1440, 1700, 1960, 2230, 2510, 2800, 3100]
 MAIN_MAPS_FILE = "classic_maps.json"
-SECONDARY_MAPS_FILE = "spring_2024_maps.json"
+SECONDARY_MAPS_FILE = "secondary_maps.json"
 SHOW_VISUAL_RANKS = False
 SERVER_VOTE_TIME_LIMIT = 181
 MAP_VOTE_TIME_LIMIT = 61
@@ -1577,7 +1577,7 @@ async def forcePTT(ctx, user: discord.Member, *, reason=None):
         )
 
 
-# Selects maps from two different json files.  options 1/2 are from classic_maps.json and option 3/4 is from spring_2024_maps.json
+# Selects maps from two different json files.  options 1/2 are from classic_maps.json and option 3/4 is from secondary maps file
 def PickMaps():
     global map_choice_1
     global map_choice_2
